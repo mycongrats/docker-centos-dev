@@ -1,0 +1,14 @@
+syntax on
+set number
+set nobackup
+set noswapfile
+set ignorecase
+set shiftwidth=4
+set tabstop=4
+set expandtab
+set encoding=utf-8
+set background=dark
+set t_Co=16
+let g:solarized_termtrans=1
+let g:solarized_termcolors=256
+colorscheme solarized
