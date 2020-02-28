@@ -13,4 +13,5 @@ RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && cat /root/vim.cnf >> /etc/vimrc \
     && rm -rf /root/vim.cnf \
     && sed -i "$ a export LANG=zh_CN.UTF-8" /etc/bashrc \
-    && sed -i '$ a export HISTTIMEFORMAT="%F %T `whoami` "' /etc/bashrc
+    && sed -i '$ a export HISTTIMEFORMAT="%F %T `whoami` "' /etc/bashrc \
+    && sed -i '$ a export JAVA_HOME=/etc/alternatives/java_sdk' /etc/bashrc
